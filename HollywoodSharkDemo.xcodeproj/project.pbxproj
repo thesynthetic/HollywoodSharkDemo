@@ -18,7 +18,25 @@
 		70D20D84170F2C75008971FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70D20D83170F2C75008971FF /* Default-568h@2x.png */; };
 		70D20D87170F2C75008971FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D20D85170F2C75008971FF /* MainStoryboard.storyboard */; };
 		70D20D8A170F2C75008971FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D20D89170F2C75008971FF /* ViewController.m */; };
+		70D20DA4170FB36C008971FF /* FirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D20DA3170FB36C008971FF /* FirstTopViewController.m */; };
+		70D20DAB170FB89B008971FF /* ECSlidingViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 70D20DA5170FB89B008971FF /* ECSlidingViewController.h */; };
+		70D20DAC170FB89B008971FF /* ECSlidingViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 70D20DA6170FB89B008971FF /* ECSlidingViewController.m */; };
+		70D20DAD170FB89B008971FF /* UIImage+ImageWithUIView.h in Resources */ = {isa = PBXBuildFile; fileRef = 70D20DA7170FB89B008971FF /* UIImage+ImageWithUIView.h */; };
+		70D20DAE170FB89B008971FF /* UIImage+ImageWithUIView.m in Resources */ = {isa = PBXBuildFile; fileRef = 70D20DA8170FB89B008971FF /* UIImage+ImageWithUIView.m */; };
+		70D20DB8170FC272008971FF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D20DB7170FC272008971FF /* MenuViewController.m */; };
+		70D20DB9170FC37F008971FF /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D20DA6170FB89B008971FF /* ECSlidingViewController.m */; };
+		70D20DBA170FC38B008971FF /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D20DA8170FB89B008971FF /* UIImage+ImageWithUIView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70D20DA0170F2FA6008971FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70D20D9C170F2FA6008971FF /* ECSlidingViewController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2750E76C14CDB0DF007727A0;
+			remoteInfo = ECSlidingViewController;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		70D20D6A170F2C75008971FF /* HollywoodSharkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollywoodSharkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +55,15 @@
 		70D20D86170F2C75008971FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		70D20D88170F2C75008971FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		70D20D89170F2C75008971FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70D20D9C170F2FA6008971FF /* ECSlidingViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ECSlidingViewController.xcodeproj; path = "ECSlidingViewController-master/ECSlidingViewController.xcodeproj"; sourceTree = "<group>"; };
+		70D20DA2170FB36C008971FF /* FirstTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTopViewController.h; sourceTree = "<group>"; };
+		70D20DA3170FB36C008971FF /* FirstTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTopViewController.m; sourceTree = "<group>"; };
+		70D20DA5170FB89B008971FF /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		70D20DA6170FB89B008971FF /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		70D20DA7170FB89B008971FF /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		70D20DA8170FB89B008971FF /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		70D20DB6170FC272008971FF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		70D20DB7170FC272008971FF /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +115,12 @@
 				70D20D85170F2C75008971FF /* MainStoryboard.storyboard */,
 				70D20D88170F2C75008971FF /* ViewController.h */,
 				70D20D89170F2C75008971FF /* ViewController.m */,
+				70D20DA2170FB36C008971FF /* FirstTopViewController.h */,
+				70D20DA3170FB36C008971FF /* FirstTopViewController.m */,
+				70D20DB6170FC272008971FF /* MenuViewController.h */,
+				70D20DB7170FC272008971FF /* MenuViewController.m */,
+				70D20DAA170FB89B008971FF /* Vendor */,
+				70D20D9C170F2FA6008971FF /* ECSlidingViewController.xcodeproj */,
 				70D20D74170F2C75008971FF /* Supporting Files */,
 			);
 			path = HollywoodSharkDemo;
@@ -105,6 +138,35 @@
 				70D20D83170F2C75008971FF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70D20D9D170F2FA6008971FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D20DA1170F2FA6008971FF /* ECSlidingViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70D20DA9170FB89B008971FF /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70D20DA5170FB89B008971FF /* ECSlidingViewController.h */,
+				70D20DA6170FB89B008971FF /* ECSlidingViewController.m */,
+				70D20DA7170FB89B008971FF /* UIImage+ImageWithUIView.h */,
+				70D20DA8170FB89B008971FF /* UIImage+ImageWithUIView.m */,
+			);
+			name = ECSlidingViewController;
+			path = Vendor/ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		70D20DAA170FB89B008971FF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				70D20DA9170FB89B008971FF /* ECSlidingViewController */,
+			);
+			name = Vendor;
+			path = "ECSlidingViewController-master/ECSlidingViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,12 +208,28 @@
 			mainGroup = 70D20D61170F2C74008971FF;
 			productRefGroup = 70D20D6B170F2C75008971FF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 70D20D9D170F2FA6008971FF /* Products */;
+					ProjectRef = 70D20D9C170F2FA6008971FF /* ECSlidingViewController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				70D20D69170F2C74008971FF /* HollywoodSharkDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		70D20DA1170F2FA6008971FF /* ECSlidingViewController.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ECSlidingViewController.app;
+			remoteRef = 70D20DA0170F2FA6008971FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		70D20D68170F2C74008971FF /* Resources */ = {
@@ -163,6 +241,10 @@
 				70D20D82170F2C75008971FF /* Default@2x.png in Resources */,
 				70D20D84170F2C75008971FF /* Default-568h@2x.png in Resources */,
 				70D20D87170F2C75008971FF /* MainStoryboard.storyboard in Resources */,
+				70D20DAB170FB89B008971FF /* ECSlidingViewController.h in Resources */,
+				70D20DAC170FB89B008971FF /* ECSlidingViewController.m in Resources */,
+				70D20DAD170FB89B008971FF /* UIImage+ImageWithUIView.h in Resources */,
+				70D20DAE170FB89B008971FF /* UIImage+ImageWithUIView.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D20DBA170FC38B008971FF /* UIImage+ImageWithUIView.m in Sources */,
+				70D20DB9170FC37F008971FF /* ECSlidingViewController.m in Sources */,
 				70D20D7A170F2C75008971FF /* main.m in Sources */,
 				70D20D7E170F2C75008971FF /* AppDelegate.m in Sources */,
 				70D20D8A170F2C75008971FF /* ViewController.m in Sources */,
+				70D20DA4170FB36C008971FF /* FirstTopViewController.m in Sources */,
+				70D20DB8170FC272008971FF /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +386,7 @@
 				70D20D8F170F2C75008971FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
