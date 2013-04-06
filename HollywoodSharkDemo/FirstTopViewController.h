@@ -12,7 +12,7 @@
 #import "MenuViewController.h"
 
 
-@interface FirstTopViewController : UIViewController
+@interface FirstTopViewController : ECSlidingViewController
 
 - (IBAction)revealMenu:(id)sender;
 - (IBAction)revealUnderRight:(id)sender;

@@ -1,38 +1,33 @@
 //
-//  InitialViewController.m
-//  HollywoodSharkDemo
+//  InitialSlidingViewController.m
+//  ECSlidingViewController
 //
-//  Created by Ryan Hittner on 4/6/13.
-//  Copyright (c) 2013 Ryan Hittner. All rights reserved.
+//  Created by Michael Enriquez on 1/25/12.
+//  Copyright (c) 2012 EdgeCase. All rights reserved.
 //
 
 #import "InitialViewController.h"
 
-@interface InitialViewController ()
-
-@end
-
 @implementation InitialViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    UIStoryboard *storyboard;
+    storyboard = [UIStoryboard storyboardWithName:@"iPad" bundle:nil];
+    
+    
+    
+    ECSlidingViewController *slidingViewController = (ECSlidingViewController *)self.window.rootViewController;
+    
+    slidingViewController.topViewController = [storyboard instantiateViewControllerWithIdentifier:@"FirstTop"];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return YES;
 }
 
 @end

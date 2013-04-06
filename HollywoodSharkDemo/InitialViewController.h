@@ -1,13 +1,14 @@
 //
-//  InitialViewController.h
-//  HollywoodSharkDemo
+//  InitialSlidingViewController.h
+//  ECSlidingViewController
 //
-//  Created by Ryan Hittner on 4/6/13.
-//  Copyright (c) 2013 Ryan Hittner. All rights reserved.
+//  Created by Michael Enriquez on 1/25/12.
+//  Copyright (c) 2012 EdgeCase. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ECSlidingViewController.h"
 
-@interface InitialViewController : UIViewController
+
+@interface InitialViewController : ECSlidingViewController
 
 @end
