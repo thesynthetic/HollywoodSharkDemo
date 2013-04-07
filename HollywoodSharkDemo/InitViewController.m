@@ -1,18 +1,18 @@
 //
-//  MenuViewController.m
+//  InitViewController.m
 //  HollywoodSharkDemo
 //
-//  Created by Ryan Hittner on 4/6/13.
+//  Created by Ryan Hittner on 4/7/13.
 //  Copyright (c) 2013 Ryan Hittner. All rights reserved.
 //
 
-#import "MenuViewController.h"
+#import "InitViewController.h"
 
-@interface MenuViewController ()
+@interface InitViewController ()
 
 @end
 
-@implementation MenuViewController
+@implementation InitViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Main"];
 }
 
 - (void)didReceiveMemoryWarning
