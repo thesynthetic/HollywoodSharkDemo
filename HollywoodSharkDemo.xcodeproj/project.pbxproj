@@ -39,6 +39,9 @@
 		704C268A17120B5F0073A51A /* profile-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 704C266E17120B5F0073A51A /* profile-image.png */; };
 		704C268B17120B5F0073A51A /* redbull-ad.png in Resources */ = {isa = PBXBuildFile; fileRef = 704C266F17120B5F0073A51A /* redbull-ad.png */; };
 		704C268C17120B5F0073A51A /* shop-ad.png in Resources */ = {isa = PBXBuildFile; fileRef = 704C267017120B5F0073A51A /* shop-ad.png */; };
+		706D2D7D171828D600F7CBAA /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706D2D7C171828D600F7CBAA /* MenuTableViewController.m */; };
+		706D2D7F17182E8400F7CBAA /* black-pixel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706D2D7E17182E8400F7CBAA /* black-pixel.jpg */; };
+		70BE8C3F1718DBB700FDF42D /* MenuFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BE8C3E1718DBB700FDF42D /* MenuFeedCell.m */; };
 		70D20D6E170F2C75008971FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D20D6D170F2C75008971FF /* UIKit.framework */; };
 		70D20D70170F2C75008971FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D20D6F170F2C75008971FF /* Foundation.framework */; };
 		70D20D72170F2C75008971FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D20D71170F2C75008971FF /* CoreGraphics.framework */; };
@@ -90,6 +93,12 @@
 		704C266E17120B5F0073A51A /* profile-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image.png"; sourceTree = "<group>"; };
 		704C266F17120B5F0073A51A /* redbull-ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redbull-ad.png"; sourceTree = "<group>"; };
 		704C267017120B5F0073A51A /* shop-ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop-ad.png"; sourceTree = "<group>"; };
+		706D2D7B171828D600F7CBAA /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		706D2D7C171828D600F7CBAA /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		706D2D7E17182E8400F7CBAA /* black-pixel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-pixel.jpg"; sourceTree = "<group>"; };
+		706D2D801718322200F7CBAA /* HollywoodSharkDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HollywoodSharkDemo.entitlements; sourceTree = "<group>"; };
+		70BE8C3D1718DBB700FDF42D /* MenuFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuFeedCell.h; sourceTree = "<group>"; };
+		70BE8C3E1718DBB700FDF42D /* MenuFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuFeedCell.m; sourceTree = "<group>"; };
 		70D20D6A170F2C75008971FF /* HollywoodSharkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollywoodSharkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D20D6D170F2C75008971FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		70D20D6F170F2C75008971FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -131,6 +140,7 @@
 				704C265617120B5F0073A51A /* bankroll.png */,
 				704C265717120B5F0073A51A /* bar-chart.png */,
 				704C265817120B5F0073A51A /* big-image1.png */,
+				706D2D7E17182E8400F7CBAA /* black-pixel.jpg */,
 				704C265917120B5F0073A51A /* big-image2.png */,
 				704C265A17120B5F0073A51A /* chat-icon.png */,
 				704C265B17120B5F0073A51A /* feed1.png */,
@@ -189,10 +199,13 @@
 		70D20D73170F2C75008971FF /* HollywoodSharkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				706D2D801718322200F7CBAA /* HollywoodSharkDemo.entitlements */,
 				70D20D7C170F2C75008971FF /* AppDelegate.h */,
 				70D20D7D170F2C75008971FF /* AppDelegate.m */,
 				70D20D85170F2C75008971FF /* MainStoryboard.storyboard */,
 				704C2648171202410073A51A /* InitViewController.h */,
+				70BE8C3D1718DBB700FDF42D /* MenuFeedCell.h */,
+				70BE8C3E1718DBB700FDF42D /* MenuFeedCell.m */,
 				704C2649171202410073A51A /* InitViewController.m */,
 				704C264B171202A10073A51A /* MenuViewController.h */,
 				704C264C171202A10073A51A /* MenuViewController.m */,
@@ -200,6 +213,8 @@
 				704C264F171202D00073A51A /* MainViewController.m */,
 				704C2651171203B40073A51A /* SecondViewController.h */,
 				704C2652171203B40073A51A /* SecondViewController.m */,
+				706D2D7B171828D600F7CBAA /* MenuTableViewController.h */,
+				706D2D7C171828D600F7CBAA /* MenuTableViewController.m */,
 				704C265417120B5F0073A51A /* Images */,
 				70D20DBB17105A0E008971FF /* ECSlidingViewController */,
 				70D20D74170F2C75008971FF /* Supporting Files */,
@@ -316,6 +331,7 @@
 				704C268A17120B5F0073A51A /* profile-image.png in Resources */,
 				704C268B17120B5F0073A51A /* redbull-ad.png in Resources */,
 				704C268C17120B5F0073A51A /* shop-ad.png in Resources */,
+				706D2D7F17182E8400F7CBAA /* black-pixel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +350,8 @@
 				704C264D171202A10073A51A /* MenuViewController.m in Sources */,
 				704C2650171202D00073A51A /* MainViewController.m in Sources */,
 				704C2653171203B40073A51A /* SecondViewController.m in Sources */,
+				706D2D7D171828D600F7CBAA /* MenuTableViewController.m in Sources */,
+				70BE8C3F1718DBB700FDF42D /* MenuFeedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +438,13 @@
 		70D20D8E170F2C75008971FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HollywoodSharkDemo/HollywoodSharkDemo.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HollywoodSharkDemo/HollywoodSharkDemo-Prefix.pch";
 				INFOPLIST_FILE = "HollywoodSharkDemo/HollywoodSharkDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -431,10 +452,13 @@
 		70D20D8F170F2C75008971FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HollywoodSharkDemo/HollywoodSharkDemo.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HollywoodSharkDemo/HollywoodSharkDemo-Prefix.pch";
 				INFOPLIST_FILE = "HollywoodSharkDemo/HollywoodSharkDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
